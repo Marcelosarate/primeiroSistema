@@ -163,8 +163,8 @@ namespace primeiroSistema
             >= maior e igual
             <= menor e igual
             */
-            Console.WriteLine("Hello word!");
-            Console.WriteLine("Olá mundo");
+          /*  Console.WriteLine("Hello word!");
+            Console.WriteLine("Olá mundo");*/
 
         }
     }
