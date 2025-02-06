@@ -7,7 +7,7 @@ namespace primeiroSistema
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!!!"); //Mostra texto com quebra de linha
+          /*  Console.WriteLine("Hello World!!!"); //Mostra texto com quebra de linha
             Console.Write("Olá Mundo!!!"); //Mostra texto sem quebra de linha
             Console.WriteLine(1 + 3);
             //declaração de variáveis -> tipo de dados | nome da variável | valor
@@ -40,7 +40,7 @@ namespace primeiroSistema
             //Interpolação de strings
             /* Diferença entre concatenação e interpolação de strings --> A interpolação ($"...") permite 
              * inserir variáveis diretamente na string, melhorando a legibilidade. Ambas as abordagens
-             funcionam, mas a interpolação de strings é mais moderna e facilita a manutenção do código */
+             funcionam, mas a interpolação de strings é mais moderna e facilita a manutenção do código 
             Console.WriteLine("O aluno nasceu no " + paisAluno + " Seja bem-vindo, " + nomeAluno + "!");
             //Maneira mais usual de interpolação
             Console.WriteLine($"O aluno nasceu no {paisAluno} Seja bem-vindo, {nomeAluno}!");
@@ -84,7 +84,9 @@ namespace primeiroSistema
             Console.WriteLine(meuInt);
             Console.WriteLine(meuDouble);
 
-            double meuDouble1 = 10.50;
+
+
+                       double meuDouble1 = 10.50;
             int meuInt1 = (int) meuDouble1; //conversão de double para int
 
             Console.WriteLine(meuDouble1);
@@ -105,18 +107,18 @@ namespace primeiroSistema
             string nomeUsuario = Console.ReadLine();
             Console.WriteLine($"Olá, {nomeUsuario}");
 
-            /*Atividade 1 - 05/02/2025 
-              Ler e escrever a idade do usuário na tela */
+            Atividade 1 - 05/02/2025 
+              Ler e escrever a idade do usuário na tela 
             Console.WriteLine("\n########## Entrada de Dados - IDADE ##########");
             Console.WriteLine("Digite sua idade:");
             int idadeUsuario = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine($"Você tem: {idadeUsuario} anos");
+            Console.WriteLine($"Você tem: {idadeUsuario} anos");/*
 
             //outra maneira de armazenar
             /*string idadeUsuario = Console.ReadLine();
             Console.WriteLine($"Você tem: {Convert.ToInt32(idadeUsuario)} anos");*/
 
-            Console.WriteLine("\n########## Soma de valores digitados ##########");
+          /*  Console.WriteLine("\n########## Soma de valores digitados ##########");
             Console.WriteLine("Digite o primeiro número");
             int primeiroNumero = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Digite o segundo número");
@@ -146,7 +148,7 @@ namespace primeiroSistema
             //Operador de atribuição
             int valorV = 300;
             valorV += 10;
-            Console.WriteLine(valorV);
+            Console.WriteLine(valorV);*/
 
             /*Alguns operadores de atribuição 
              =
@@ -156,13 +158,13 @@ namespace primeiroSistema
             /=
             %=
             
-            */
+            
 
             //Operador de comparação
             int u = 5;
             int v = 6;
             Console.WriteLine(u > v);
-            /*
+            
             == igual a
             != diferente
             > maior que
@@ -170,11 +172,22 @@ namespace primeiroSistema
             >= maior e igual
             <= menor e igual
             */
-            Console.WriteLine(u < v);
+          /*  Console.WriteLine(u < v);
             Console.WriteLine(u <= v);
             Console.WriteLine(u >= v);
-            Console.WriteLine(u != v);
+            Console.WriteLine(u != v);*/
 
+            /* Atividade*/
+
+            Console.WriteLine("Digite um primeiro número");
+            int primeiroNúmero= Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("digite o segundo número");
+            int segundoNúmero = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"a soma entre {primeiroNúmero} e {segundoNúmero} é: { primeiroNúmero + segundoNúmero}"); 
+            Console.WriteLine($"a subtração entre{primeiroNúmero} e {segundoNúmero} é: {primeiroNúmero - segundoNúmero}");
+            Console.WriteLine($"a multiplicação entre{primeiroNúmero} e {segundoNúmero} é: {primeiroNúmero * segundoNúmero}");
+            Console.WriteLine($" a divisão entre{primeiroNúmero} e { segundoNúmero} é: {primeiroNúmero / segundoNúmero}");
+            
 
 
 
